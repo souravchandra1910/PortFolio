@@ -149,6 +149,7 @@ a{
     left: -5%;
     font-weight: bold;
     transition: all 3s;
+    margin: 20px;;
 }
 
 .hero-section-left{
@@ -654,11 +655,17 @@ a{
 .skill-subHeading p{
   margin:15px 0;
 }
+
+
+/* media quary for mobile 
+
+
+for tabs and desktops site I am working on */
 @media (max-width: 600px) {
-  a {
+a {
     font-size: 12.2px;
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
   .skill-container-right {
@@ -716,7 +723,7 @@ a{
   .faded-text {
       position: absolute;
       user-select: none;
-      font-size: 3em;
+      font-size: 2em;
       margin-left: 138px;
       color: rgb(231,231,231);
       bottom: -16%;
@@ -735,5 +742,14 @@ a{
 }
  .user-image img{
    width: 266px;
+}
+.hero-section-heading {
+  font-size: 30px;
+  color: #343d68;
+  font-weight: 500;
+}
+.logo-text {
+  margin-left: -1.2rem;
+  font-size: 17px;
 }
   }
