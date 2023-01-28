@@ -718,11 +718,57 @@ footer{
 
 
 for tabs and desktops site I am working on */
+@media only screen and (min-width: 768px) and (max-width:1200px){ 
+
+.navbar{
+  justify-content:flex-start;
+}
+a{
+  padding: 10px;
+}
+.hero-section{
+  flex-direction: column;
+  margin-bottom: 140px;
+  
+}
+.skills-container{
+  flex-direction: column;
+}
+.contactus-sub-heading{
+  font-size: 2em;
+}
+.formfield-container{
+  margin-left: -39px;
+}
+.skill-container-left{
+  width: 60%;
+}
+.faded-text{
+  margin: 98px;
+  font-size: 6em;
+  
+}
+.hero-section-right{
+  margin-left: -314px;
+}
+.btn-pink{
+  margin-left: 195px;
+}
+.hero-section-description{
+  width: 60%;
+}
+.user-image {
+  margin-left: -34px;
+}
+}
 @media (max-width: 600px) {
+  .logo{
+    width: 60px;
+  }
 a {
     font-size: 12.2px;
     text-decoration: none;
-    padding-left: 30px;
+    padding-left: 24px;
 }
 
   .skill-container-right {
@@ -742,8 +788,8 @@ a {
   
 .nav-items {
     display: flex;
-    gap: 10px;
-    padding: 16px;
+    gap: 0px;
+    padding: 0px;
 }
   .skill-subHeading {
     margin-top: 1rem;
@@ -801,12 +847,12 @@ a {
    width: 266px;
 }
 .hero-section-heading {
-  font-size: 30px;
+  font-size: 26px;
   color: #343d68;
   font-weight: 500;
 }
 .logo-text {
-  margin-left: -1.2rem;
+  margin-left: -18px;
   font-size: 17px;
 }
 .contactus-heading{
